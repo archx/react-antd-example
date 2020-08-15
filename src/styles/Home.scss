@@ -1,0 +1,35 @@
+.Home {
+  height: 100%;
+
+  .trigger {
+    font-size  : 18px;
+    line-height: 64px;
+    padding    : 0 24px;
+    cursor     : pointer;
+    transition : color 0.1s;
+
+    :hover {
+      color: #1890ff;
+    }
+  }
+
+  .logo {
+    height    : 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin    : 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    span{
+      color: rgba(255, 255, 255, .82);
+      font-weight: 400;
+      // text-transform: uppercase;
+      font-size: 1.2rem;
+    }
+  }
+
+  .site-layout .site-layout-background {
+    background: #fff;
+  }
+}
