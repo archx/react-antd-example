@@ -1,15 +1,15 @@
 .LoginPage {
-    background-color: rgba(0, 0, 0, .1);
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: rgba(0, 0, 0, .1);
+  height          : 100%;
+  width           : 100%;
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
 
-    .ant-form {
-        background-color: #fff;
-        padding: 2rem;
-        border-radius: .5rem;
-        width: 400px;
-    }
+  .ant-form {
+    background-color: #fff;
+    padding         : 2rem;
+    border-radius   : .5rem;
+    width           : 400px;
+  }
 }
